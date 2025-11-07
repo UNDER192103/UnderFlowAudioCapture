@@ -18,9 +18,9 @@ This library allows you to seamlessly capture audio from a **microphone** or **s
 Assuming you have the `UnderFlowAudioCapture.exe` and its dependencies correctly placed in the `bin/` directory:
 
 ```bash
-npm install your-package-name
+npm install underflowaudiocapture
 # or
-yarn add your-package-name
+yarn add underflowaudiocapture
 ```
 
 ## 🚀 Usage
@@ -30,7 +30,7 @@ yarn add your-package-name
 The `listDevices` method is static and returns a Promise resolving to an array of available audio devices.
 
 ```javascript
-import UnderFlowAudioCapture from 'your-package-name';
+import UnderFlowAudioCapture from 'underflowaudiocapture';
 
 async function getDevices() {
   try {
@@ -55,7 +55,7 @@ getDevices();
 The capture methods (`startMic`, `startLoopback`) are instance methods and require the class to be instantiated.
 
 ```javascript
-import UnderFlowAudioCapture from 'your-package-name';
+import UnderFlowAudioCapture from 'underflowaudiocapture';
 import fs from 'fs';
 
 // Instantiate the capture manager

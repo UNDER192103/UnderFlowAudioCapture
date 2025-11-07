@@ -1,8 +1,8 @@
 {
-  "name": "underflowaudiocapture.js",
+  "name": "underflowaudiocapture",
   "version": "1.0.3",
-  "description": "underflowaudiocapture.js",
-  "productName": "underflowaudiocapture.js",
+  "description": "underflowaudiocapture",
+  "productName": "underflowaudiocapture",
   "main": "index.js",
   "type": "module",
   "scripts": {

@@ -1,0 +1,34 @@
+{
+  "name": "underflowaudiocapture",
+  "version": "1.0.1",
+  "description": "UnderFlowAudioCapture",
+  "productName": "UnderFlowAudioCapture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/UNDER192103/UnderFlowAudioCapture",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "homepage": "https://github.com/UNDER192103/UnderFlowAudioCapture",
+  "author": {
+    "name": "UNDER",
+    "email": "undernouzen@gmail.com",
+    "url": "https://github.com/UNDER192103"
+  },
+  "contributors": [
+    {
+      "name": "UNDER",
+      "email": "undernouzen@gmail.com",
+      "url": "https://github.com/UNDER192103"
+    }
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "wav": "^1.0.2"
+  }
+}
